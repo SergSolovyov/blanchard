@@ -1,0 +1,231 @@
+@media (max-width: 960px) {
+  .header-top__logo {
+    margin-right: 8px;
+  }
+  .mobile-search {
+    height: 100%;
+    align-items: flex-end;
+  }
+  .header-top__search-btn {
+    width: 27px;
+    height: 27px;
+  }
+  .mobile-form {
+    padding-bottom: 8px;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    background-color: #000;
+  }
+  .mobile-form__closed {
+    width: 27px;
+    height: 27px;
+    background-image: url('../img/search-closed.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex-shrink: 0;
+  }
+  .mobile-form__input {
+    margin-right: 25px;
+  }
+
+  .hero-swiper .hero-slide_1 {
+    background-image: url('../img/hero-768-1.webp');
+  }
+  .hero-swiper .hero-slide_2 {
+    background-image: url('../img/hero-768-2.webp');
+  }
+  .hero-swiper .hero-slide_3 {
+    background-image: url('../img/hero-768-3.webp');
+  }
+
+  .choices__list--dropdown .choices__item--selectable,
+  .choices__list--dropdown .choices__item.is-highlighted {
+    background: black;
+  }
+  .choices.is-focused .choices__inner,
+  .choices.is-open .choices__inner {
+    background: transparent;
+  }
+  .gallery {
+    margin-bottom: 81px;
+    background-image: url('../img/gallery-768.webp');
+  }
+  .gallery-content {
+    height: auto;
+  }
+  .gallery-description {
+    order: 1;
+  }
+  .filter {
+    margin-bottom: 111px;
+    max-width: 280px;
+  }
+  .gallery-description {
+    max-width: 100%;
+  }
+  .gallery-right {
+    margin-bottom: 17px;
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .catalog {
+    margin-bottom: 70px;
+  }
+  .catalog-head {
+    align-items: center;
+  }
+  .catalog-head__title {
+    margin-right: 40px;
+  }
+  .catalog-buttons__item:not(:last-child) {
+    margin-right: 54px;
+  }
+  .catalog__description {
+    margin-bottom: 19px;
+  }
+  .catalog-content {
+    flex-direction: column-reverse;
+  }
+  .catalog-biography {
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .catalog-biography__image {
+    margin-bottom: 32px;
+    width: 100%;
+  }
+  .catalog-content__right {
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: none;
+  }
+  .accordion-content__list {
+    padding-bottom: 31px;
+    column-count: 3;
+    width: 100%;
+  }
+
+  .events-slider {
+    margin: 0 -17px;
+  }
+  .events-list__item {
+    margin: 0 17px 50px 17px;
+    width: calc(100% / 2 - 34px);
+    min-height: 683px;
+  }
+  .events-item__image {
+    width: 100%;
+  }
+  .events-item:nth-child(n + 3) {
+    display: none;
+  }
+  .events-item__location {
+    padding: 0 17px;
+  }
+
+  .editions {
+    margin-bottom: 80px;
+    padding-top: 84px;
+    padding-bottom: 80px;
+    background-image: url('../img/editions-768.webp');
+  }
+  .editions__title {
+    margin-bottom: 24px;
+  }
+  .editions-wrapper {
+    flex-direction: column;
+  }
+  .editions-left {
+    margin-bottom: 110px;
+    max-width: 100%;
+  }
+  .editions-category {
+    margin-bottom: 32px;
+  }
+  .editions-list {
+    margin-bottom: 0;
+    column-count: 3;
+  }
+  .editions-wrapper__right {
+    padding-top: 0;
+    padding: 0 27px;
+    width: 100%;
+  }
+  .editions-btns {
+    transform: translateX(-27px) translateY(-59px);
+  }
+  .editions-price {
+    margin-bottom: 0;
+  }
+  .editions-slide img {
+    width: 100%;
+  }
+  .editions-slide__wrapper {
+    margin-bottom: 16px;
+  }
+  .editions-slide__content {
+    padding-top: 11px;
+  }
+  .editions-slide__headlines {
+    max-width: 150px;
+  }
+  .editions-slide__button {
+    padding: 7px 19px;
+  }
+  .editions-category__title {
+    margin-bottom: 6px;
+  }
+  .editions-list__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .editions-list__icon {
+    line-height: 32px;
+  }
+  .mobile-nbsp {
+    display: inline;
+  }
+  .projects {
+    margin-bottom: 81px;
+  }
+  .projects__link {
+    white-space: nowrap;
+  }
+  .projects__text {
+    margin-bottom: 28px;
+  }
+
+  .tippy-box {
+    background-color: #cacaca;
+  }
+  .tippy-arrow::before {
+    color: #cacaca;
+  }
+  .partners__title {
+    margin-bottom: 30px;
+  }
+  .partners-swiper {
+    max-width: 84%;
+  }
+  .partners__banner {
+    min-height: 106px;
+  }
+
+  .feedback {
+    width: calc(50% + 45px);
+  }
+  .contacts-content__right {
+    width: calc(50% - 45px);
+  }
+  .feedback__adresses {
+    margin-bottom: 31px;
+  }
+  .feedback-form__title {
+    margin-bottom: 17px;
+  }
+  .feedback-social__title {
+    margin-bottom: 16px;
+  }
+}
+
