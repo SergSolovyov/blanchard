@@ -416,7 +416,17 @@
     }, {passive: true});
   });
 
+  const navLink = document.querySelectorAll('.nav-list__link');
 
+  navLink.forEach(link => {
+    link.addEventListener('click', () => {
+      if (document.body.classList.contains('lock')) {
+        document.body.classList.remove('lock');
+        burger.classList.remove('is--active');
+        burgerMenu.classList.remove('is--active');
+      }
+    })
+  })
 
   // search
 
